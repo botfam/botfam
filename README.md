@@ -1,9 +1,9 @@
-# <i>Taylor-Bot</i>
+# <i>botfam</i>
 رباتی با پشتیبانی از دو زبان فارسی و انگلیسی
 
 اوپن شده و نوشته شده توسط 
 
-[negative](https://telegram.me/negative_officiall)
+[kaktosk](https://telegram.me/kaktosk)
 
 قدرت گرفته از 
 
@@ -18,10 +18,6 @@ TeleSeed !
 - [install figlet plugin](#figlet)
 
 
-## تشکر از 
-[@MrJacki](https://telegram.me/MrJacki)
-
-[@UnFriendlly](https://telegram.me/UnFriendlly)
 
 #install 
 
@@ -29,8 +25,8 @@ TeleSeed !
 sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev lua-socket lua-sec lua-expat libevent-dev make unzip git redis-server autoconf g++ libjansson-dev libpython-dev expat libexpat1-dev
 ```
 ```sh
-git clone https://github.com/taylor-team/taylor-bot -b supergroups
-cd taylor-bot 
+git clone https://github.com/botfam/botfam -b supergroups
+cd botfam 
 ./launch.sh install 
 ./launch.sh # add phone
 ```
@@ -77,7 +73,7 @@ $ figlet
 ##Run Api Telegram bot 
 
 ```sh
-cd taylor-bot
+cd botfam
 chmod +x apilaunch.sh
 cd 
 rm -rf .telegram-cli
